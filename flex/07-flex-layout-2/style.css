@@ -5,25 +5,81 @@ body {
 }
 
 .header {
-  height: 72px;
+  height: 32px;
   background: darkmagenta;
   color: white;
+  font-weight: bolder;
+  display: flex;
+  padding: 10px 10px 10px;
+  font-size: 30px;
 }
 
 .footer {
   height: 72px;
   background: #eee;
   color: darkmagenta;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 200px;
+}
+
+.content{
+  display: flex;
+}
+
+.sidebar ul{
+  list-style: none;
+  margin-left: -30px;
+  
+}
+
+.sidebar a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  
+}
+
+.sidebar li{
+  margin-top: 10px;
+  
 }
 
 .sidebar {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
+  display: flex;
+  flex-shrink: 0;
+  
+}
+
+.lorem-cards{
+  display: flex;
+  padding: 30px;
+  flex-wrap: wrap;
+  
+}
+
+.first-row, .second-row{
+  display:flex;
+  margin: 20px;
+}
+
+.first-row{
+  margin-top: 40px;
+}
+
+.second-row{
+  margin-bottom: 200px ;
+  margin-top: 200px ;
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  display: flex;
+  padding-left: 25px;
 }
